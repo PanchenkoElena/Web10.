@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Авторизация</title>
+</head>
+
+<body>
+	<main>
+		<div class="enter">
+			<div class="enter__wrapper">
+				<img src="img/logo.png" alt="Logo" class="enter__logo logo">
+				<div class="authorization" id="auth">
+					<h1 class="authorization__title">Авторизация</h1>
+					<form action="#" method="post" class="authorization__form">
+						<div class="form__label">E-mail</div>
+						<input type="mail" name="Login" class="input" required>
+						<div class="password">
+							<div class="form__label">Пароль</div>
+							<input type="password" autocomplete="current-password" name="Userpass" class="input" required>
+							<img src="img/eye.png" alt="show" class="password__eye">
+						</div>
+						<div class="authorization__user-remember">
+							<input type="checkbox" class="authorization__checkbox">
+							<div class="authorization__checkbox-text">Запомнить меня</div>
+						</div>
+						<button type="submit" class="authorization__button button">Войти</button>
+					</form>
+					<a href="index.html" class="authorization__link-registration">Зарегистироваться</a>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>
